@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trang ví dụ - Bài tập HTML</title>
+  <meta name="description" content="Một trang HTML mẫu có doctype, head, body, thẻ ngữ nghĩa, danh sách, hình ảnh và liên kết ngoài.">
+</head>
+<body>
+  <header>
+    <h1>Trang ví dụ: HTML cơ bản với thẻ ngữ nghĩa</h1>
+    <nav aria-label="Điều hướng chính">
+      <a href="#about">Giới thiệu</a>
+      <a href="#gallery">Thư viện</a>
+      <a href="#resources">Tài nguyên</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Giới thiệu ngắn</h2>
+      <p>Đây là một trang mẫu đáp ứng yêu cầu: có <strong>doctype</strong>, phần tử <code>head</code> và <code>body</code>, sử dụng ít nhất ba thẻ ngữ nghĩa (header, main, footer), chứa danh sách, nhiều hình ảnh và một liên kết đến nguồn bên ngoài.</p>
+    </section>
+
+    <section id="features">
+      <h2>Tính năng</h2>
+      <ul>
+        <li>Thẻ ngữ nghĩa: <code>header</code>, <code>main</code>, <code>footer</code> (và các <code>section</code> phụ).</li>
+        <li>Danh sách có tối thiểu ba mục (bạn đang đọc mục số 2).</li>
+        <li>Ít nhất ba hình ảnh trong phần thư viện bên dưới.</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Thư viện ảnh</h2>
+      <p>Ảnh dưới đây dùng làm ví dụ (tải từ Unsplash):</p>
+      <figure>
+        <img src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?w=1200&q=80&auto=format&fit=crop" alt="Cảnh núi vào buổi bình minh">
+        <figcaption>Ngọn núi lúc bình minh</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&q=80&auto=format&fit=crop" alt="Hồ nước yên tĩnh dưới rừng cây">
+        <figcaption>Hồ nước và rừng</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?w=1200&q=80&auto=format&fit=crop" alt="Bầu trời đầy sao trên sa mạc">
+        <figcaption>Bầu trời đêm đầy sao</figcaption>
+      </figure>
+    </section>
+
+    <section id="resources">
+      <h2>Tài nguyên & Liên kết</h2>
+      <p>Để học thêm về HTML và thẻ ngữ nghĩa, tham khảo hướng dẫn chính thức của MDN:</p>
+      <p><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs — Documentation</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Trang ví dụ — Được tạo để minh họa yêu cầu bài tập.</p>
+  </footer>
+</body>
+</html>
